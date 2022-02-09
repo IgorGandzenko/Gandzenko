@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета пользователя</title>
+</head>
+<header>
+    <h1 style="text-align: center;">Узнай какая ОС в ТОПе</h1>
+    <h2 style="text-align: center;">Заполни анкету и узнай статистику</h2>
+</header>
+<body>
+<section>
+    <form action="" id="form1">
+        <fieldset>
+            <legend>
+                Авторизация
+            </legend>
+            <label for="Login">
+                Логин:
+            </label><br>
+            <input type="text" id="Login">
+            <label for="pass"><br>
+                Пароль:
+            </label><br>
+            <input type="password" name="pass" id="pass"><br>
+            <input type="checkbox" name="rem" id="rem" checked="checked">
+            <label for="rem">
+                Запомнить меня
+            </label><br>
+            <input type="submit" value="Войти">
+            <input type="reset" value="Сбросить">
+        </fieldset>
+    </form>
+</section>
+<section>
+    <h3>Несколько вопросов для статисткики</h3>
+    <form action="" id="form2">
+        <fieldset>
+        <label for="fname">
+            Имя:
+        </label>
+        <input type="text" id="fname" name="fname" placeholder="Питер"><br>
+        <label for="sname">
+            Фамилия:
+        </label>
+        <input type="text" id="sname" name="sname" placeholder="Паркер"><br>
+        <label for="bday">
+            Дата Рождения:
+        </label>
+        <input type="date" name="bday" id="bday"><br>
+        <label for="male">
+            Выбери пол:
+        </label>
+        <select name="male" id="male">
+            <option value="man">Мужской</option>
+            <option value="woman">Женский</option>
+        </select><br>
+        <label for="country">
+            Страна:
+        </label>
+        <input type="text" id="country" name="country"><br>
+        <label for="tnumb">
+            Номер Телефона:
+        </label>
+        <input type="tel" id="tnumb" name="tnumb" placeholder="+380 123 45 67"><br>
+        <label for="who">
+            Кто ты воин?:
+        </label><br>
+        <input type="checkbox" name="stiv" id="stiv">
+        <label for="stiv">
+            Я Стив Джобс(опытный програмист)
+        </label>
+        <input type="checkbox" name="gamer" id="gamer">
+        <label for="gamer">
+            Я геймер, Сэр
+        </label>
+        <input type="checkbox" name="bloger" id="bloger">
+        <label for="bloger">
+            Я блогер(соц. сети моё всё)
+        </label>
+        <input type="checkbox" name="3d" id="3d">
+        <label for="3d">
+            Я дизайнер(3d моделирование)
+        </label>
+        <input type="checkbox" name="job" id="job">
+        <label for="job">
+            Я так, чисто по работе(таблицы, калькулятор)
+        </label>
+        <input type="checkbox" name="none" id="none">
+        <label for="none">
+            Я включаю комп ради фильмов и ютуба
+        </label><br>
+        <p>Выбери ту ОС которую считаешь лучшей:</p>
+        <input type="radio" name="favos" id="windows" value="windows">
+        <label for="windows">
+            Windows
+        </label>
+        <input type="radio" name="favos" id="macos" value="macos">
+        <label for="macos">
+            Mac OS
+        </label>
+        <input type="radio" name="favos" id="linux" value="linux">
+        <label for="linux">
+            Linux
+        </label>
+        <input type="radio" name="favos" id="ios" value="ios">
+        <label for="ios">
+            IOS
+        </label>
+        <input type="radio" name="favos" id="android" value="android">
+        <label for="android">
+            Android
+        </label><br>
+        <label for="words">
+            Оставь пару слов, почему?
+        </label>
+        <textarea name="comment" id="words" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Отправить Анкету">
+    </fieldset>                        
+    </form>
+</section>
+<footer>
+    <p>Created by GunDzen</p>
+</footer>   
+</body>
+</html>
